@@ -43,6 +43,7 @@ nav ul li:hover{
 	background-color: inherit;
 }
 .primary button:hover{
+	border-color: #6610f2;
 	background-color: #6610f2;
 }
 .danger .title{
