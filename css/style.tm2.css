@@ -1,0 +1,79 @@
+/******
+THEME 2
+*****
+primary = #6610f2
+danger = #dc3545
+warning = #fd7e14
+success = #198754
+theme-btn = #FFF
+body = #343a40
+nav = #212529
+nav-hover = #6c757d
+nav-height = 70px
+*/
+
+body{
+	background-color: #343a40;
+}
+nav{
+	height: 70px;
+	background-color: #212529;
+}
+button{
+	background-color: #6c757d;
+	color: #fff;
+}
+nav ul li:hover{
+	background-color: #6c757d;
+}
+.card{
+	background-color: #6c757d;
+	color: #fff;
+}
+.card .title{
+	color: #fff;
+}
+.primary .title{
+	border-bottom-color: #6610f2;
+}
+.primary button{
+	border-color: #6610f2;
+	background-color: #6610f2;
+}
+.primary button:hover{
+	border-color: #6610f2;
+	background-color: inherit;
+}
+.danger .title{
+	border-bottom-color: #dc3545;
+}
+.danger button{
+	border-color: #dc3545;
+	background-color: #dc3545;
+}
+.danger button:hover{
+	border-color: #dc3545;
+	background-color: inherit;
+}
+.warning .title{
+	border-bottom-color: #fd7e14;
+}
+.warning button{
+	border-color: #fd7e14;
+	background-color: #fd7e14;
+}
+.warning button:hover{
+	border-color: #fd7e14;
+	background-color: inherit;
+}
+.success .title{
+	border-bottom-color: #198754;
+}
+.success button{
+	border-color: #198754;
+	background-color: #198754;
+}
+.success button:hover{
+	border-color: #198754;
+	background-color: inherit;
+}
