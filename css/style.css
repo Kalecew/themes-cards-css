@@ -68,7 +68,6 @@ main{
 .card{
 	padding: 20px 50px;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-	background-color: #fff;
 	border-radius: 5px;
 }
 .card .title{
@@ -88,7 +87,4 @@ main{
 }
 .card button{
 	border: 2px solid transparent;
-}
-.card button:hover{
-	color:  #fff;
 }
