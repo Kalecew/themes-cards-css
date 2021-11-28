@@ -6,6 +6,7 @@ danger = #dc3545
 warning = #fd7e14
 success = #20c997
 body-text = #fff
+nav-text = #fff
 card-button-text = inherit
 card-button-text-hover = #fff
 theme-btn = #6c757d
@@ -14,6 +15,8 @@ nav = #212529
 nav-hover = #6c757d
 card = #6c757d
 nav-height = 70px
+nav-fs = 17px
+nav-fs-hover = 18px
 */
 
 body{
@@ -30,6 +33,13 @@ button{
 }
 nav ul li:hover{
 	background-color: #6c757d;
+}
+nav ul li a{
+	font-size: 17px;
+	color: #fff;
+}
+nav ul li a:hover{
+	font-size: 18px;
 }
 .card{
 	background-color: #6c757d;
